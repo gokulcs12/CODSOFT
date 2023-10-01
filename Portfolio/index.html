@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,500;0,6..12,700;1,6..12,400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gokul C S</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            Gokul C S
+        </div>
+        <div class="menu">
+            <div class="navlinks">
+                <div><a href="#home">Home</a></div>
+                <div><a href="#skills">Skills</a></div>
+                <div><a href="#projects">Projects</a></div>
+                <div><a href="#contact">Contact</a></div>
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div id="intro">
+            Hello! I am <span style="color: black;">Gokul!</span><br>
+            I'm a   <span id="element" style="color: black;"></span>
+        </div>
+        <div id="image">
+            <img src="gokul.jpg" height="300" width="350" />
+        </div>
+    </section>
+    <section id="skills">
+        <div class="heading">
+            SKILLS
+        </div>
+        <div id="skillsList">
+        
+            <div class="skillcard">
+                <div class="skillname">HTML</div>
+                <div class="skillimage"><img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg"/></div>
+            </div>
+            <div class="skillcard">
+                <div class="skillname">CSS</div>
+                <div class="skillimage"><img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg"/></div>
+            </div>
+            <div class="skillcard">
+                <div class="skillname">JAVASCRIPT</div>
+                <div class="skillimage"><img src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg"/></div>
+            </div>
+            <div class="skillcard">
+                <div class="skillname">SQL</div>
+                <div class="skillimage"><img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-ar21.svg"/></div>
+            </div>
+            <div class="skillcard">
+                <div class="skillname">REACT</div>
+                <div class="skillimage"><img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg"/></div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="heading">PROJECTS</div>
+        <div id="projectslist"><div class="projectcard">
+            <div class="projectname">Railway Reservation System</div>
+            <div class="projectdesc"> A web application that allows users to book tickets.</div>
+            
+        </div>
+        <div class="projectcard">
+              <div class="projectname">Attendance Buddy.</B></div>
+            <div class="projectdesc">Devised face recognition based attendance system for monitoring attendance pf students.</div>
+        </div>
+        <div class="projectcard">
+              <div class="projectname">Road Crack Detection.</div>
+            <div class="projectdesc"> A model built using Convolutional Neural Networks(CNN) to implement automatic crack detection</div>
+        </div>
+        <div class="projectcard">
+              <div class="projectname">Elgamal Encryption.</div>
+            <div class="projectdesc">Generation of Public and Private Keys using Cryptosystem.</div>
+        </div>
+        
+    </section>
+    <section id="contact">
+        <div style="font-size: 1.2em;margin: 20px 0;">
+            <a href="https://drive.google.com/file/d/1wV0MFW-YobGhx8FIPbU8-0fi1MSBgxqi/view?usp=drivesdk">Click here</a> to view resume.
+        </div>
+        <div class="heading">
+            CONNECT WITH ME
+        </div>
+        <div style="width:400px;display: flex; justify-content: space-around;margin: 20px 0;">
+            <a href="https://www.github.com/gokulcs12">
+                <i
+                  class="fa-brands fa-github"
+                ></i>
+              </a>
+              <a href="https://www.linkedin.com/in/gokul-c-s-41079a255">
+                <i
+                  class="fa-brands fa-linkedin"
+                ></i>
+              </a>
+              <a href="https://www.instagram.com/c_s_gokul">
+                <i
+                  class="fa-brands fa-instagram"
+                  
+                ></i>
+              </a>
+        </div>
+        <div style="display: flex;flex-direction: column;font-size: 1.2em; align-items: center;justify-content: space-around;height: 100px;">
+            <p>Phone: <a href="tel:+919206388300">+91 720481004</a></p>
+            <p>Email: <a href="mailto:gokulcs122002@gmail.com">gokulcs122002@gmail.com</a></p>
+        
+        </div>
+    </section>
+    <footer>
+        Copyright &copy; Gokul
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer.', 'Student.','Software Engineer.'],
+          typeSpeed: 50,
+          loop:true
+        });
+      </script>
+</body>
+</html>
